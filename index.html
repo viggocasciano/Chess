@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div id="jeu">
+
+    
+        <canvas id="canvas" class = "Chess"></canvas>
+
+        <div id="coordonnees_chiffre"></div>
+        <div id="coordonnees_lettre"></div>
+    
+    </div>
+    <p id = tour>Au tour des blancs</p>
+    <div id="coups">
+        <p id = "coups_joues">Coups joués : </p>
+        <div id="ctn_coups"></div>
+    </div>
+    <div id="timer_b">
+        <div id="ctn_timer_b" maxlength="4">9.60</div>
+    </div>
+    <div id="timer_n">
+        <div id="ctn_timer_n" maxlength="4">9.60</div>
+    </div>
+    <script src="chess.js"></script>
+</body>
+</html>
